@@ -3,9 +3,9 @@
 namespace OOP;
 
 /**
- * Autoloads OAuth2 classes
+ * Autoloads classes
  *
- * @author    Brent Shaffer <bshafs at gmail dot com>
+ * @author    Søren K. Kjeldsen <soerenkk at soerenkk dot dk>
  * @license   MIT License
  */
 class Autoloader
@@ -20,7 +20,7 @@ class Autoloader
         $this->dir = $dir;
     }
     /**
-     * Registers OAuth2_Autoloader as an SPL autoloader.
+     * Registers Autoloader as an SPL autoloader.
      */
     public static function register($dir = null)
     {
